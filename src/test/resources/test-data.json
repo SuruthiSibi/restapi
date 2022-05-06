@@ -1,0 +1,11 @@
+{
+  "name": "Suruthi",
+  "age": 15,
+  "address": "India",
+  "subjects": [
+    {
+      "name": "Maths",
+      "marks": 95
+    }
+  ]
+}
