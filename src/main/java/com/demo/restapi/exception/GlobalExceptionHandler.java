@@ -16,7 +16,7 @@ import java.util.Map;
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<Object> handleCityNotFoundException(
+    public ResponseEntity<Object> handleException(
             Exception ex) {
         Map<String, Object> body = new HashMap<>();
         body.put("message", "Internal Server Error. Please contact admin");
