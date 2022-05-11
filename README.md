@@ -5,14 +5,14 @@ and retrieving student details and subject details.
 
 To Build the maven project below command is used
 
-    mvn compile
+    sh mvnw compile
 
 When it is done, we will see the complied classes in the
 target/classes directory, Run below command to compile
 your Java code, run any tests, and finish by packaging
 the code up in a JAR file within the target directory
 
-    mvn package
+    sh mvnw package
 
 To execute the JAR file run below command
 
